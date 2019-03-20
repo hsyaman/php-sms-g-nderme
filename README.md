@@ -5,9 +5,9 @@ Bu class ile php ile sms göndermek mail atmak kadar kolay olacaktır.Yukarıda 
 Dosyamızı oluşturduktan sonra servis sağlayıcının size vermiş olduğu kullanıcı adı, şifre ve başlık parametrelerini private ile tanımlanmış sms.class.php dosyamızdaki değişkenlerimize aktarıyoruz.
 
 <h1>Sms Göndermek</h1>
-gönder.php dosyamız ile bu mesajı gönderdik. Eğer işlem başarılı ise servis sağlayıcımızdan geri “200” kodu dönecektir. “200” kodu bu işlem başarı anlamına gelmektedir. 
+gönder.php dosyamızda yer alan numara mesaj kısmına istediğimiz numara ve mesajı yazıp kodumuzu çalıştırıyoruz.Eğer işlem başarılı olursa cevap olarak 200 kodunu dönecektir ve işlem başarılı şekilde ekrana yazı yazdıracaktır. 
 
-<h1>kalan Sms Hakkımızı Öğrenmek</h1>
+<h1>Kalan Sms Adeti</h1>
 Servis sağlayıcısındaki sms paketinizdeki kalan sms adetini görmek için aşağıdaki kodu yazmanız yeterli.
 <code> $sms->getBalance(); </code>
 
