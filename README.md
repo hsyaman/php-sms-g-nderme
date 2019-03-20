@@ -6,4 +6,4 @@ Dosyamızı oluşturduktan sonra servis sağlayıcının size vermiş olduğu ku
 gönder.php dosyamız ile bu mesajı gönderdik. Eğer işlem başarılı ise servis sağlayıcımızdan geri “200” kodu dönecektir. “200” kodu bu işlem başarı anlamına gelmektedir. 
 
 Servis sağlayıcısındaki sms paketinizdeki kalan sms adetini görmek için aşağıdaki kodu yazmanız yeterli.
-$sms->getBalance();
+<code> $sms->getBalance(); </code>
